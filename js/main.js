@@ -25,14 +25,35 @@
 
     //1-misol
 
-    let a = 94;
-    let b = 96 ;
-    let res;
-    res = (a % 100) - a % 10 / 10;
-    res = (b % 100) - b % 10 / 10;
-    console.log(res);
-    if (a > b){
-        a = res;
-    } 
-    console.log(res);
+    // let a = 90;
+    // let b = 99;
+    // let res;
+    // let count;
+    // res = (a % 100) - a % 10 / 10;
+    // count = (b % 100) - b % 10 / 10;
+    // if (a > b){
+    // res = a;
+    // } else {
+    //  count = b
+    // }
+    // console.log(count);
 
+
+
+    //2-misol
+
+     let a = 190;
+     let max;
+    let b = a % 10;
+    let o = (a % 100) - o / 10;
+    let y = (a / 100) - (a % 100) / 100 ;
+
+    if(b > o){
+        max = b;
+    } else{
+        max = o;
+    }
+    if (max < y){
+        max = y;
+    }
+    console.log(max);
